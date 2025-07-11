@@ -2,7 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import Menu from "./components/Menu";
+import LandingPage from "./components/LandingPage";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,7 +11,7 @@ function App() {
     <>
       <div className="main-background">
         <div className="main-container">
-          <Menu />
+          <LandingPage />
         </div>
       </div>
     </>

@@ -1,4 +1,72 @@
+.menu-card {
+  padding: 30px 60px;
+}
+
+.menu-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .qr-icon {
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
+  padding: 30px 40px;
+}
+
+.url-btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.url-btn {
+  width: 200px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #444;
+  opacity: 0.6;
+  transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+}
+
+.url-btn:hover {
+  background-color: #f8abf8;
+  color: #571e57;
+  opacity: 1;
+}
+
+.url-btn.selected {
+  background-color: #f8abf8;
+  color: #571e57;
+  opacity: 1;
+}
+
+.url-icon,
+.ig-icon,
+.email-icon,
+.wifi-icon,
+.txt-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.div-line {
+  width: 10px;
+  height: 600px;
+  object-fit: contain;
+  margin-top: 30px;
 }
