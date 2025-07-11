@@ -1,5 +1,6 @@
 import React from "react";
 import qrIcon from "../assets/qr-icon.png";
+import "../styles/MenuStyle.css";
 
 export default function Menu() {
   return (
